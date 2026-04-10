@@ -47,15 +47,15 @@ DDI_Project/
 These results indicate that the model performs well in predicting drug interactions with good balance between precision and recall.
 
 ---
+## ▶️ How to Run
 
-## How to Run
 ```bash
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the main program
 python ddi_checker.py
-
+```
  Future Improvements
  Develop a web application using Streamlit
  Integrate real-time drug databases
