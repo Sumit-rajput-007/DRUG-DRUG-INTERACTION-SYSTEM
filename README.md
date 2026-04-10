@@ -1,8 +1,8 @@
 # DRUG-DRUG-INTERACTION-SYSTEM
 The Drug-Drug Interaction System is an ML-based application that predicts whether two or more drugs interact with each other. It helps in identifying harmful combinations and ensures safe medication usage
 
-Drug-Drug Interaction System
-Overview
+
+#Overview
 The Drug-Drug Interaction System is a Machine Learning-based project that predicts potential interactions between two drugs.
 It helps in identifying whether combining specific medications may lead to harmful side effects or reduced effectiveness.
 
@@ -20,8 +20,16 @@ Technologies Used
 Programming Language: Python
 Libraries: Pandas, NumPy, Matplotlib, Seaborn
 Concepts: Machine Learning, Data Preprocessing, Model Evaluation
+
 Project Structure
-DDI_Project/ │── ddi_checker.py │── preprocessing.py │── confusion_matrix.py │── ROC_curve.py │── F1_score.py │── db_drug_interactions.csv │── drug_interactions.csv
+DDI_Project/ 
+│── ddi_checker.py 
+│── preprocessing.py 
+│── confusion_matrix.py 
+│── ROC_curve.py 
+│── F1_score.py 
+│── db_drug_interactions.csv 
+│── drug_interactions.csv
 
 Results
 Accuracy: 85.66%
@@ -36,7 +44,11 @@ pip install -r requirements.txt
 python ddi_checker.py
 Future Improvements Develop a web application using Streamlit Integrate real-time drug databases Apply Deep Learning models for higher accuracy Build a user-friendly interface
 
-Contributors Sumit Rajput Amish Mewada Sumit Bhati Anshul Mewada
+Contributors 
+Sumit Rajput 
+Amish Mewada 
+Sumit Bhati 
+Anshul Mewada
 
 Support
 
